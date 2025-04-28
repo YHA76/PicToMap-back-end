@@ -1,0 +1,25 @@
+# Environnements virtuels
+venv/
+.env/
+
+# Fichiers compilés Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Fichiers de logs
+*.log
+
+# Configurations locales
+*.env
+
+# Fichiers générés par des IDE
+.vscode/
+.idea/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.swp
+*.swo
