@@ -1,0 +1,5 @@
+Flask==2.3.2
+Flask-Cors==3.0.10
+
+# ExifRead - Librairie pour lire les métadonnées EXIF des images (GPS, etc.)
+exifread==3.0.0

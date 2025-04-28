@@ -1,25 +1,23 @@
-# Environnements virtuels
+# Environnement virtuel Python (ne pas versionner)
 venv/
-.env/
 
-# Fichiers compilés Python
-*.pyc
+# Fichiers temporaires Python
+__pycache__/
+*.py[cod]
 *.pyo
 *.pyd
-__pycache__/
 
-# Fichiers de logs
+# Logs & fichiers temporaires
 *.log
-
-# Configurations locales
-*.env
-
-# Fichiers générés par des IDE
-.vscode/
-.idea/
-
-# Fichiers temporaires
 *.tmp
-*.bak
-*.swp
-*.swo
+
+# Fichiers système (Windows/macOS)
+.DS_Store
+Thumbs.db
+
+# Configuration spécifique à VS Code (optionnel)
+.vscode/
+
+# Environnements virtuels spécifiques à certains outils
+.env
+.env.*
